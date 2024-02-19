@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d app"
   },
   "author": "Andrii Kravchuk",
   "license": "ISC",
+  "homepage": "https://11krava11.github.io/gosurf",
   "devDependencies": {
     "animate.css": "^4.1.1",
     "browser-sync": "^2.29.1",
@@ -23,6 +24,7 @@
     "wow.js": "^1.2.2"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "node-fetch": "^2.6.1"
   }
 }
