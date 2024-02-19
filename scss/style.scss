@@ -839,6 +839,10 @@
           left: -200px;
           top: 60px;
         }
+        @include r(470) {
+          font-size: 17px;
+          left: -160px;
+        }
         
       }
     }
@@ -849,6 +853,10 @@
         @include r(992) {
           left: -40px;
           top: 60px;  
+        }
+        @include r(470) {
+          font-size: 17px;
+          left: 15px;
         }
         
       }
@@ -863,6 +871,12 @@
         left: auto;
         @include r(992) {
           padding-right: 0;
+        }
+        @include r(992) {
+          left: -60px;
+          right: auto;  
+          top: 55px;
+          font-size: 17px;
         }
           &::before {
             right: 0;
